@@ -13,7 +13,7 @@ agent any
             steps {
 		bat "git tag"
 		 echo "La ultima tag es:"
-		   bat" git tag describe"
+		bat" git describe"
             }
         }
 	
