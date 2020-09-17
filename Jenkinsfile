@@ -12,6 +12,8 @@ agent any
         stage('Tag') {
             steps {
 		bat "git tag"
+		 bat "La ultima tag es:"
+		   bat" git tag describe"
             }
         }
 	
