@@ -12,7 +12,7 @@ agent any
         stage('Tag') {
             steps {
 		bat "git tag"
-		 bat echo "La ultima tag es:"
+		 echo "La ultima tag es:"
 		   bat" git tag describe"
             }
         }
